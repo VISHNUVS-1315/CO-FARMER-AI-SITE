@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 640" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4FBF4"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/><stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1B5E20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="300" height="24" fill="#FFFFFF"/>
+  <text x="14" y="16" font-size="9.5" font-weight="700" fill="#1F2937">9:41</text>
+  <rect x="244" y="5" width="16" height="9" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <rect x="245.5" y="6.5" width="9" height="6" rx="1" fill="#2E7D32"/>
+  <path d="M262 9.5 L266 9.5 L266 6.2 L269 9.8 L266 13.4 Z" fill="#9CA3AF"/>
+  <circle cx="274" cy="9.5" r="2" fill="#9CA3AF"/>
+
+  <rect x="16" y="36" width="268" height="44" rx="14" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <circle cx="36" cy="58" r="12" fill="url(#grad)"/><text x="32" y="62" font-size="10" fill="#fff">✦</text>
+  <text x="54" y="56" font-size="10.5" font-weight="800" fill="#1F2937">AI Farming Mentor</text>
+  <text x="54" y="69" font-size="7.5" fill="#4CAF50">● Online · replies in your language</text>
+  <circle cx="258" cy="58" r="12" fill="#FFF3E0"/><text x="255" y="62" font-size="9">🌐</text>
+
+  <g font-size="7.5" font-weight="700" fill="#2E7D32">
+    <rect x="16" y="92" width="76" height="24" rx="12" fill="#E8F5E9"/><text x="26" y="107">🐛 Pest help</text>
+    <rect x="98" y="92" width="92" height="24" rx="12" fill="#E8F5E9"/><text x="108" y="107">💧 Watering advice</text>
+    <rect x="196" y="92" width="88" height="24" rx="12" fill="#FFF3E0"/><text x="206" y="107" fill="#E65100">📊 Market</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="16" y="126" width="206" height="40" rx="16" fill="url(#grad)"/>
+    <path d="M222 144 L216 134 L216 126" fill="none"/>
+    <text x="28" y="143" font-size="9" fill="#fff">मेरी टमाटर की फसल में पीले</text>
+    <text x="28" y="157" font-size="9" fill="#fff">पत्ते क्यों आ रहे हैं? 🌱</text>
+
+    <rect x="16" y="178" width="268" height="126" rx="16" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="198" r="12" fill="url(#grad)"/><text x="30" y="202" font-size="10" fill="#fff">✦</text>
+    <text x="52" y="195" font-size="8.5" font-weight="800" fill="#1F2937">Co Farmer AI</text>
+    <text x="52" y="207" font-size="7" fill="#9CA3AF">just now · answered in English</text>
+    <rect x="26" y="216" width="248" height="1" fill="#F0F2F0"/>
+    <text x="26" y="234" font-size="8.5" fill="#374151">Yellowing lower leaves = nitrogen deficiency</text>
+    <text x="26" y="248" font-size="8.5" fill="#374151">during flowering. Here's what to do:</text>
+    <rect x="26" y="258" width="196" height="38" rx="9" fill="#F4FBF4" stroke="#DCEBDB"/>
+    <text x="34" y="273" font-size="8.5" fill="#374151">💡 <tspan font-weight="800" fill="#2E7D32">Tip:</tspan> Foliar-spray NPK 19:19:19</text>
+    <text x="34" y="287" font-size="8.5" fill="#374151">at 2g/L in the evening, 7 days apart.</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="16" y="318" width="206" height="28" rx="14" fill="#E8F5E9"/>
+    <text x="28" y="336" font-size="8.5" font-weight="700" fill="#2E7D32">धन्यवाद! 🙏 Ab samajh gaya</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="16" y="358" width="268" height="58" rx="16" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="376" r="12" fill="url(#grad)"/><text x="30" y="380" font-size="10" fill="#fff">✦</text>
+    <text x="52" y="373" font-size="8.5" font-weight="800" fill="#1F2937">Co Farmer AI</text>
+    <text x="52" y="385" font-size="7" fill="#9CA3AF">typing…</text>
+    <circle cx="30" cy="404" r="2.6" fill="#4CAF50"><animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/></circle>
+    <circle cx="39" cy="404" r="2.6" fill="#4CAF50"><animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="48" cy="404" r="2.6" fill="#4CAF50"><animate attributeName="opacity" values="1;0.2;1" dur="1s" begin="0.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="16" y="440" width="268" height="40" rx="20" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <text x="28" y="464" font-size="8.5" fill="#9CA3AF">Ask anything about your farm…</text>
+  <circle cx="238" cy="460" r="13" fill="#FFF3E0" stroke="#FFB74D" stroke-width="1"/>
+  <text x="232" y="465" font-size="11">🎤</text>
+  <circle cx="266" cy="460" r="15" fill="url(#grad)"/>
+  <path d="M266 452 L271 460 L266 468 L261 460 Z" fill="#fff">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2.5; 0 0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="0" y="592" width="300" height="48" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="38" y="626" font-size="13" fill="#9CA3AF">🏠</text>
+  <rect x="86" y="600" width="40" height="4" rx="2" fill="#2E7D32"/>
+  <text x="102" y="626" font-size="12" fill="#2E7D32">💬</text>
+  <text x="152" y="626" font-size="12" fill="#9CA3AF">🧭</text>
+  <text x="206" y="626" font-size="12" fill="#9CA3AF">☰</text>
+  <circle cx="258" cy="616" r="11" fill="url(#grad)"/><text x="252" y="620" font-size="10" fill="#fff">＋</text>
+</svg>

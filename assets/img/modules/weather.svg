@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 640" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4FBF4"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2196F3"/><stop offset="1" stop-color="#64B5F6"/>
+    </linearGradient>
+    <linearGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFEE58"/><stop offset="1" stop-color="#FFB300"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/><stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0D47A1" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="300" height="24" fill="#FFFFFF"/>
+  <text x="14" y="16" font-size="9.5" font-weight="700" fill="#1F2937">9:41</text>
+  <rect x="244" y="5" width="16" height="9" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <rect x="245.5" y="6.5" width="9" height="6" rx="1" fill="#2E7D32"/>
+  <path d="M262 9.5 L266 9.5 L266 6.2 L269 9.8 L266 13.4 Z" fill="#9CA3AF"/>
+  <circle cx="274" cy="9.5" r="2" fill="#9CA3AF"/>
+
+  <rect x="16" y="36" width="268" height="44" rx="14" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <text x="28" y="60" font-size="14" fill="#2E7D32">‹</text>
+  <rect x="46" y="42" width="30" height="30" rx="9" fill="url(#sky)"/>
+  <text x="52" y="62" font-size="13">☀</text>
+  <text x="84" y="56" font-size="10.5" font-weight="800" fill="#1F2937">Weather — North Farm</text>
+  <text x="84" y="69" font-size="7.5" fill="#6B7280">Tiruppur</text>
+  <text x="248" y="60" font-size="11" fill="#6B7280">⋮</text>
+
+  <rect x="16" y="92" width="268" height="124" rx="18" fill="url(#sky)" filter="url(#s)"/>
+  <path d="M-6 152 Q36 116 78 146 Q120 176 162 140 Q204 110 246 140 L306 132 L306 216 L-6 216 Z" fill="#FFFFFF" opacity="0.16"/>
+  <circle cx="150" cy="132" r="24" fill="url(#sun)">
+    <animate attributeName="r" values="24;27;24" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <g stroke="#FFEE58" stroke-width="2" stroke-linecap="round">
+    <line x1="150" y1="98" x2="150" y2="90"/><line x1="150" y1="166" x2="150" y2="174"/>
+    <line x1="116" y1="132" x2="108" y2="132"/><line x1="184" y1="132" x2="192" y2="132"/>
+    <line x1="126" y1="108" x2="120" y2="102"/><line x1="174" y1="156" x2="180" y2="162"/>
+    <line x1="174" y1="108" x2="180" y2="102"/><line x1="126" y1="156" x2="120" y2="162"/>
+  </g>
+  <text x="150" y="154" text-anchor="middle" font-size="34" font-weight="800" fill="#fff">32°</text>
+  <text x="150" y="174" text-anchor="middle" font-size="9.5" font-weight="700" fill="#fff">Sunny</text>
+  <text x="150" y="190" text-anchor="middle" font-size="8" fill="#E3F2FD">Feels 34° · H 36° / L 26°</text>
+  <text x="150" y="205" text-anchor="middle" font-size="7.5" fill="#E3F2FD">🌧 8% · 💧 64% · 🌬 12 km/h</text>
+
+  <text x="16" y="238" font-size="11" font-weight="800" fill="#1F2937">5-Day Forecast</text>
+  <g font-size="9" font-weight="700" fill="#374151">
+    <rect x="16" y="246" width="268" height="40" rx="12" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <circle cx="34" cy="266" r="11" fill="#FFF3E0"/><text x="27" y="270" font-size="10">☀</text>
+    <text x="52" y="270" fill="#1F2937">Tue</text><text x="100" y="270" fill="#9CA3AF">Clear sky</text>
+    <text x="216" y="271" font-size="11" font-weight="800" fill="#1F2937">33°</text><text x="252" y="271" fill="#9CA3AF">27°</text>
+    <rect x="16" y="292" width="268" height="40" rx="12" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <circle cx="34" cy="312" r="11" fill="#E8F0FE"/><text x="27" y="316" font-size="10">⛅</text>
+    <text x="52" y="316" fill="#1F2937">Wed</text><text x="100" y="316" fill="#9CA3AF">Partly cloudy</text>
+    <text x="216" y="317" font-size="11" font-weight="800" fill="#1F2937">31°</text><text x="252" y="317" fill="#9CA3AF">26°</text>
+    <rect x="16" y="338" width="268" height="40" rx="12" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <circle cx="34" cy="358" r="11" fill="#E8F0FE"/><text x="27" y="362" font-size="10">🌦</text>
+    <text x="52" y="362" fill="#1F2937">Thu</text><text x="100" y="362" fill="#9CA3AF">Light showers</text>
+    <text x="216" y="363" font-size="11" font-weight="800" fill="#1F2937">29°</text><text x="252" y="363" fill="#9CA3AF">25°</text>
+    <rect x="16" y="384" width="268" height="40" rx="12" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <circle cx="34" cy="404" r="11" fill="#E8F0FE"/><text x="27" y="408" font-size="10">🌧</text>
+    <text x="52" y="408" fill="#1F2937">Fri</text><text x="100" y="408" fill="#9CA3AF">Rain expected</text>
+    <text x="216" y="409" font-size="11" font-weight="800" fill="#1F2937">28°</text><text x="252" y="409" fill="#9CA3AF">24°</text>
+  </g>
+
+  <rect x="16" y="436" width="268" height="82" rx="16" fill="#FFF8E1" stroke="#FFE082" filter="url(#s)"/>
+  <rect x="26" y="446" width="24" height="24" rx="8" fill="#FFB300"/>
+  <text x="33" y="463" font-size="11">🌾</text>
+  <text x="58" y="460" font-size="9.5" font-weight="800" fill="#8D6E63">AI Farm Insight</text>
+  <text x="26" y="482" font-size="8.5" fill="#6B7280">Rain on Friday — top-dress your tomato crop</text>
+  <text x="26" y="495" font-size="8.5" fill="#6B7280">today and push irrigation +1 day.</text>
+  <rect x="26" y="504" width="92" height="16" rx="8" fill="url(#grad)"/>
+  <text x="42" y="515" font-size="7.5" font-weight="800" fill="#fff">Plan a Task →</text>
+
+  <rect x="0" y="592" width="300" height="48" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="38" y="626" font-size="13" fill="#9CA3AF">🏠</text>
+  <text x="102" y="626" font-size="12" fill="#9CA3AF">💬</text>
+  <rect x="136" y="600" width="40" height="4" rx="2" fill="#2E7D32"/>
+  <text x="152" y="626" font-size="12" fill="#2E7D32">🧭</text>
+  <text x="206" y="626" font-size="12" fill="#9CA3AF">☰</text>
+  <circle cx="258" cy="616" r="11" fill="url(#grad)"/><text x="252" y="620" font-size="10" fill="#fff">＋</text>
+</svg>

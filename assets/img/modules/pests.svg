@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 640" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4FBF4"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/><stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4CAF50" stop-opacity="0"/><stop offset="1" stop-color="#4CAF50" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1B5E20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="300" height="24" fill="#FFFFFF"/>
+  <text x="14" y="16" font-size="9.5" font-weight="700" fill="#1F2937">9:41</text>
+  <rect x="244" y="5" width="16" height="9" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <rect x="245.5" y="6.5" width="9" height="6" rx="1" fill="#2E7D32"/>
+  <path d="M262 9.5 L266 9.5 L266 6.2 L269 9.8 L266 13.4 Z" fill="#9CA3AF"/>
+  <circle cx="274" cy="9.5" r="2" fill="#9CA3AF"/>
+
+  <rect x="16" y="36" width="268" height="44" rx="14" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <text x="28" y="60" font-size="14" fill="#2E7D32">‹</text>
+  <rect x="46" y="42" width="30" height="30" rx="9" fill="#FFEBEE"/>
+  <text x="53" y="62" font-size="13">🐛</text>
+  <text x="84" y="56" font-size="10.5" font-weight="800" fill="#1F2937">Pest &amp; Disease Detection</text>
+  <text x="84" y="69" font-size="7.5" fill="#6B7280">AI vision · instant results</text>
+  <text x="248" y="60" font-size="11" fill="#6B7280">⋮</text>
+
+  <rect x="16" y="92" width="268" height="180" rx="18" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="1.5" stroke-dasharray="5 4" filter="url(#s)"/>
+  <text x="150" y="110" text-anchor="middle" font-size="8.5" font-weight="700" fill="#2E7D32">📷 Point camera at the affected leaf</text>
+
+  <path d="M120 140 C134 118 166 118 180 140 C194 162 178 182 150 182 C122 182 106 162 120 140 Z" fill="#66BB6A"/>
+  <path d="M150 132 C144 150 138 162 138 178 M150 132 C156 150 162 162 162 178" stroke="#2E7D32" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M150 178 L150 192 M145 186 L155 186" stroke="#4CAF50" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="138" cy="156" r="3.6" fill="#8D6E63"/>
+  <circle cx="158" cy="148" r="3.2" fill="#8D6E63"/>
+  <circle cx="146" cy="168" r="2.8" fill="#8D6E63"/>
+  <g stroke="#4CAF50" stroke-width="2.4" fill="none">
+    <path d="M16 100 L16 92 L24 92" stroke-linecap="square"/>
+    <path d="M276 92 L284 92 L284 100" stroke-linecap="square"/>
+    <path d="M16 264 L16 272 L24 272" stroke-linecap="square"/>
+    <path d="M284 264 L284 272 L276 272" stroke-linecap="square"/>
+  </g>
+  <rect x="16" y="178" width="268" height="6" rx="3" fill="url(#scan)" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 88; 0 0" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="16" y="258" width="268" height="2" rx="1" fill="#A5D6A7"/>
+
+  <rect x="16" y="284" width="268" height="76" rx="16" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <rect x="26" y="294" width="28" height="28" rx="9" fill="#FFEBEE"/>
+  <text x="34" y="313" font-size="12">🔎</text>
+  <text x="62" y="305" font-size="9.5" font-weight="800" fill="#1F2937">Result</text>
+  <text x="62" y="319" font-size="9" fill="#9CA3AF">Alternaria solani</text>
+  <rect x="150" y="296" width="98" height="22" rx="11" fill="#FFEBEE"/>
+  <text x="160" y="311" font-size="8" font-weight="800" fill="#D32F2F">⚠ Early Blight</text>
+  <text x="26" y="342" font-size="12" font-weight="800" fill="#D32F2F">92%</text>
+  <text x="58" y="342" font-size="8" fill="#6B7280">confidence · spreads fast in humidity</text>
+
+  <rect x="16" y="372" width="268" height="108" rx="16" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <rect x="26" y="382" width="28" height="28" rx="9" fill="url(#grad)"/>
+  <text x="33" y="401" font-size="12">💊</text>
+  <text x="62" y="393" font-size="9.5" font-weight="800" fill="#1F2937">Treatment plan</text>
+  <text x="26" y="420" font-size="8.5" fill="#374151">1️⃣ Spray <tspan font-weight="800" fill="#2E7D32">Mancozeb 75% WP</tspan> — 2g/L water</text>
+  <text x="26" y="436" font-size="8.5" fill="#374151">2️⃣ Remove infected leaves &amp; burn them</text>
+  <text x="26" y="452" font-size="8.5" fill="#374151">3️⃣ Repeat spray after 10 days</text>
+  <rect x="26" y="462" width="84" height="18" rx="9" fill="url(#grad)"/>
+  <text x="40" y="475" font-size="7.5" font-weight="800" fill="#fff">Add to Tasks ✓</text>
+
+  <rect x="16" y="492" width="268" height="62" rx="16" fill="#FFF8E1" stroke="#FFE082" filter="url(#s)"/>
+  <rect x="26" y="502" width="24" height="24" rx="8" fill="#FFB300"/>
+  <text x="33" y="519" font-size="11">🛡</text>
+  <text x="58" y="516" font-size="9.5" font-weight="800" fill="#8D6E63">Prevention</text>
+  <text x="26" y="534" font-size="8.5" fill="#6B7280">Keep spacing wide, rotate crops, avoid evening watering.</text>
+
+  <rect x="0" y="592" width="300" height="48" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="38" y="626" font-size="13" fill="#9CA3AF">🏠</text>
+  <text x="102" y="626" font-size="12" fill="#9CA3AF">💬</text>
+  <text x="152" y="626" font-size="12" fill="#9CA3AF">🧭</text>
+  <rect x="190" y="600" width="40" height="4" rx="2" fill="#2E7D32"/>
+  <text x="206" y="626" font-size="12" fill="#2E7D32">☰</text>
+  <circle cx="258" cy="616" r="11" fill="url(#grad)"/><text x="252" y="620" font-size="10" fill="#fff">＋</text>
+</svg>

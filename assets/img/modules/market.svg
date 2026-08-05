@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 640" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4FBF4"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/><stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1B5E20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="300" height="24" fill="#FFFFFF"/>
+  <text x="14" y="16" font-size="9.5" font-weight="700" fill="#1F2937">9:41</text>
+  <rect x="244" y="5" width="16" height="9" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <rect x="245.5" y="6.5" width="9" height="6" rx="1" fill="#2E7D32"/>
+  <path d="M262 9.5 L266 9.5 L266 6.2 L269 9.8 L266 13.4 Z" fill="#9CA3AF"/>
+  <circle cx="274" cy="9.5" r="2" fill="#9CA3AF"/>
+
+  <rect x="16" y="36" width="268" height="44" rx="14" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <text x="28" y="60" font-size="14" fill="#2E7D32">‹</text>
+  <rect x="46" y="42" width="30" height="30" rx="9" fill="#E3F2FD"/>
+  <text x="53" y="62" font-size="13">🛒</text>
+  <text x="84" y="56" font-size="10.5" font-weight="800" fill="#1F2937">Market Prices</text>
+  <text x="84" y="69" font-size="7.5" fill="#6B7280">📍 Tiruppur district</text>
+  <text x="248" y="60" font-size="11" fill="#6B7280">⋮</text>
+
+  <rect x="16" y="92" width="268" height="22" rx="11" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="28" y="107" font-size="8.5" fill="#9CA3AF">🔍 Search crops or mandis…</text>
+
+  <rect x="16" y="122" width="268" height="62" rx="16" fill="url(#grad)" filter="url(#s)"/>
+  <circle cx="250" cy="128" r="26" fill="#FFFFFF" opacity="0.1"/>
+  <text x="26" y="142" font-size="9" font-weight="800" fill="#fff">💡 Best price today</text>
+  <text x="26" y="162" font-size="17" font-weight="800" fill="#fff">Chillies — ₹6,200/q</text>
+  <text x="26" y="176" font-size="7.5" fill="#E8F5E9">Gobi Mandi · demand up 18% this week</text>
+
+  <text x="16" y="208" font-size="11" font-weight="800" fill="#1F2937">Today's Rates</text>
+  <g font-size="8.5" font-weight="700" fill="#374151">
+    <rect x="16" y="216" width="268" height="52" rx="13" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <rect x="26" y="226" width="30" height="30" rx="9" fill="#FFF3E0"/><text x="34" y="246" font-size="13">🧅</text>
+    <text x="64" y="238" font-size="9.5" fill="#1F2937">Onion</text><text x="64" y="252" font-size="7" fill="#9CA3AF">Coimbatore Mandi</text>
+    <text x="222" y="242" font-size="11" font-weight="800" fill="#1F2937">₹2,450</text>
+    <rect x="196" y="252" width="54" height="16" rx="8" fill="#FFEBEE"/><text x="203" y="264" font-size="7.5" fill="#D32F2F">▼ 3.2%</text>
+
+    <rect x="16" y="276" width="268" height="52" rx="13" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <rect x="26" y="286" width="30" height="30" rx="9" fill="#FFEBEE"/><text x="34" y="306" font-size="13">🍅</text>
+    <text x="64" y="298" font-size="9.5" fill="#1F2937">Tomato</text><text x="64" y="312" font-size="7" fill="#9CA3AF">Tiruppur Mandi</text>
+    <text x="222" y="302" font-size="11" font-weight="800" fill="#1F2937">₹1,850</text>
+    <rect x="196" y="312" width="54" height="16" rx="8" fill="#E8F5E9"/><text x="203" y="324" font-size="7.5" fill="#2E7D32">▲ 5.4%</text>
+
+    <rect x="16" y="336" width="268" height="52" rx="13" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <rect x="26" y="346" width="30" height="30" rx="9" fill="#FFF8E1"/><text x="34" y="366" font-size="13">🥔</text>
+    <text x="64" y="358" font-size="9.5" fill="#1F2937">Potato</text><text x="64" y="372" font-size="7" fill="#9CA3AF">Ooty Mandi</text>
+    <text x="222" y="362" font-size="11" font-weight="800" fill="#1F2937">₹2,150</text>
+    <rect x="196" y="372" width="54" height="16" rx="8" fill="#E8F5E9"/><text x="203" y="384" font-size="7.5" fill="#2E7D32">▲ 1.1%</text>
+
+    <rect x="16" y="396" width="268" height="52" rx="13" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+    <rect x="26" y="406" width="30" height="30" rx="9" fill="#FFEBEE"/><text x="34" y="426" font-size="13">🌶</text>
+    <text x="64" y="418" font-size="9.5" fill="#1F2937">Chillies</text><text x="64" y="432" font-size="7" fill="#9CA3AF">Gobi Mandi</text>
+    <text x="222" y="422" font-size="11" font-weight="800" fill="#1F2937">₹6,200</text>
+    <rect x="196" y="432" width="54" height="16" rx="8" fill="#E8F5E9"/><text x="203" y="444" font-size="7.5" fill="#2E7D32">▲ 4.8%</text>
+  </g>
+
+  <rect x="16" y="460" width="268" height="66" rx="16" fill="#FFF8E1" stroke="#FFE082" filter="url(#s)"/>
+  <rect x="26" y="470" width="24" height="24" rx="8" fill="#FFB300"/>
+  <text x="33" y="487" font-size="11">🤖</text>
+  <text x="58" y="484" font-size="9.5" font-weight="800" fill="#8D6E63">Sell-smart suggestion</text>
+  <text x="26" y="502" font-size="8.5" fill="#6B7280">Tomato rising — hold 3-4 days. Onion falling —</text>
+  <text x="26" y="515" font-size="8.5" fill="#6B7280">sell this week to avoid further dip.</text>
+
+  <rect x="0" y="592" width="300" height="48" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="38" y="626" font-size="13" fill="#9CA3AF">🏠</text>
+  <text x="102" y="626" font-size="12" fill="#9CA3AF">💬</text>
+  <text x="152" y="626" font-size="12" fill="#9CA3AF">🧭</text>
+  <rect x="190" y="600" width="40" height="4" rx="2" fill="#2E7D32"/>
+  <text x="206" y="626" font-size="12" fill="#2E7D32">☰</text>
+  <circle cx="258" cy="616" r="11" fill="url(#grad)"/><text x="252" y="620" font-size="10" fill="#fff">＋</text>
+</svg>

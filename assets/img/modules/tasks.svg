@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 640" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4FBF4"/><stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E7D32"/><stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB300"/><stop offset="1" stop-color="#FFCA28"/>
+    </linearGradient>
+    <filter id="s" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1B5E20" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="300" height="640" fill="url(#bg)"/>
+  <rect x="0" y="0" width="300" height="24" fill="#FFFFFF"/>
+  <text x="14" y="16" font-size="9.5" font-weight="700" fill="#1F2937">9:41</text>
+  <rect x="244" y="5" width="16" height="9" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <rect x="245.5" y="6.5" width="9" height="6" rx="1" fill="#2E7D32"/>
+  <path d="M262 9.5 L266 9.5 L266 6.2 L269 9.8 L266 13.4 Z" fill="#9CA3AF"/>
+  <circle cx="274" cy="9.5" r="2" fill="#9CA3AF"/>
+
+  <rect x="16" y="36" width="268" height="44" rx="14" fill="#FFFFFF" stroke="#E8F0E8" filter="url(#s)"/>
+  <text x="28" y="60" font-size="14" fill="#2E7D32">‹</text>
+  <rect x="46" y="42" width="30" height="30" rx="9" fill="#E8F5E9"/>
+  <text x="53" y="62" font-size="13">📋</text>
+  <text x="84" y="56" font-size="10.5" font-weight="800" fill="#1F2937">Farm Tasks</text>
+  <text x="84" y="69" font-size="7.5" fill="#6B7280">North Farm · Tomato · Day 42</text>
+  <text x="248" y="60" font-size="11" fill="#6B7280">⋮</text>
+
+  <rect x="16" y="92" width="268" height="86" rx="18" fill="url(#grad)" filter="url(#s)"/>
+  <circle cx="240" cy="98" r="40" fill="#FFFFFF" opacity="0.1"/>
+  <circle cx="262" cy="120" r="24" fill="#FFFFFF" opacity="0.1"/>
+  <text x="26" y="116" font-size="9.5" font-weight="800" fill="#fff">Today's plan</text>
+  <text x="26" y="140" font-size="24" font-weight="800" fill="#fff">5 of 7 done</text>
+  <text x="26" y="158" font-size="8" fill="#E8F5E9">Auto-generated from growth stage + weather</text>
+  <rect x="26" y="166" width="248" height="5" rx="2.5" fill="#FFFFFF" opacity="0.25"/>
+  <rect x="26" y="166" width="177" height="5" rx="2.5" fill="#fff">
+    <animate attributeName="width" values="0;177" dur="1.2s" fill="freeze"/>
+  </rect>
+
+  <text x="16" y="202" font-size="10" font-weight="800" fill="#1F2937">🌅 Morning</text>
+  <g filter="url(#s)">
+    <rect x="16" y="210" width="268" height="58" rx="14" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="232" r="12" fill="url(#grad)"/><text x="27" y="237" font-size="9" fill="#fff">✓</text>
+    <text x="54" y="229" font-size="9.5" font-weight="700" fill="#374151">Irrigate North Farm — 90 min</text>
+    <text x="54" y="244" font-size="7.5" fill="#9CA3AF">Done 6:30 AM · drip 40L</text>
+    <rect x="196" y="222" width="74" height="18" rx="9" fill="#E8F5E9"/><text x="206" y="234" font-size="7.5" font-weight="800" fill="#2E7D32">✔ Done</text>
+
+    <rect x="16" y="276" width="268" height="58" rx="14" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="298" r="12" fill="url(#grad)"/><text x="27" y="303" font-size="9" fill="#fff">✓</text>
+    <text x="54" y="295" font-size="9.5" font-weight="700" fill="#374151">Apply NPK 19:19:19 (2g/L)</text>
+    <text x="54" y="310" font-size="7.5" fill="#9CA3AF">Foliar spray after 5 PM</text>
+    <rect x="196" y="288" width="74" height="18" rx="9" fill="#E8F5E9"/><text x="206" y="300" font-size="7.5" font-weight="800" fill="#2E7D32">✔ Done</text>
+  </g>
+
+  <text x="16" y="358" font-size="10" font-weight="800" fill="#1F2937">🌤 Afternoon</text>
+  <g filter="url(#s)">
+    <rect x="16" y="366" width="268" height="58" rx="14" fill="#FFFFFF" stroke="#FFE082" stroke-width="1.5"/>
+    <circle cx="34" cy="388" r="12" fill="url(#warm)"/><text x="28" y="393" font-size="9" fill="#fff">1</text>
+    <text x="54" y="385" font-size="9.5" font-weight="700" fill="#374151">Weeding — tomato rows 1-4</text>
+    <text x="54" y="400" font-size="7.5" fill="#9CA3AF">Due today · high priority</text>
+    <rect x="196" y="378" width="74" height="18" rx="9" fill="#FFF3E0"/><text x="204" y="390" font-size="7.5" font-weight="800" fill="#E65100">Doing…</text>
+
+    <rect x="16" y="432" width="268" height="58" rx="14" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="454" r="12" fill="#F1F2F1"/><text x="29" y="459" font-size="9" fill="#9CA3AF">2</text>
+    <text x="54" y="451" font-size="9.5" font-weight="700" fill="#374151">Pest check — leaf undersides</text>
+    <text x="54" y="466" font-size="7.5" fill="#9CA3AF">Report findings to AI Mentor</text>
+    <rect x="196" y="444" width="74" height="18" rx="9" fill="#F1F2F1"/><text x="202" y="456" font-size="7.5" font-weight="700" fill="#9CA3AF">Pending</text>
+  </g>
+
+  <text x="16" y="514" font-size="10" font-weight="800" fill="#1F2937">🌙 Evening</text>
+  <g filter="url(#s)">
+    <rect x="16" y="522" width="268" height="58" rx="14" fill="#FFFFFF" stroke="#E8F0E8"/>
+    <circle cx="34" cy="544" r="12" fill="#F1F2F1"/><text x="29" y="549" font-size="9" fill="#9CA3AF">3</text>
+    <text x="54" y="541" font-size="9.5" font-weight="700" fill="#374151">Harvest readiness check</text>
+    <text x="54" y="556" font-size="7.5" fill="#9CA3AF">Tomorrow · maturity stage 70%</text>
+    <rect x="196" y="534" width="74" height="18" rx="9" fill="#F1F2F1"/><text x="202" y="546" font-size="7.5" font-weight="700" fill="#9CA3AF">Upcoming</text>
+  </g>
+
+  <circle cx="260" cy="568" r="16" fill="url(#grad)" filter="url(#s)"/>
+  <text x="254" y="573" font-size="12" fill="#fff">＋</text>
+
+  <rect x="0" y="592" width="300" height="48" fill="#FFFFFF" stroke="#E8F0E8"/>
+  <text x="38" y="626" font-size="13" fill="#9CA3AF">🏠</text>
+  <text x="102" y="626" font-size="12" fill="#9CA3AF">💬</text>
+  <text x="152" y="626" font-size="12" fill="#9CA3AF">🧭</text>
+  <rect x="190" y="600" width="40" height="4" rx="2" fill="#2E7D32"/>
+  <text x="206" y="626" font-size="12" fill="#2E7D32">☰</text>
+  <circle cx="258" cy="616" r="11" fill="url(#grad)"/><text x="252" y="620" font-size="10" fill="#fff">＋</text>
+</svg>
