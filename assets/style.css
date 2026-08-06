@@ -67,6 +67,11 @@ img { max-width: 100%; display: block; }
   transition: transform .2s, box-shadow .2s;
 }
 .btn-nav:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(12,26,18,0.25); }
+.btn-nav-green {
+  background: linear-gradient(135deg, var(--green), #2E9D4E);
+  box-shadow: 0 4px 14px rgba(52,199,89,0.35);
+}
+.btn-nav-green:hover { box-shadow: 0 8px 22px rgba(52,199,89,0.5); }
 
 /* Hero */
 .hero {
@@ -454,3 +459,11 @@ img { max-width: 100%; display: block; }
   .nav nav a:not(.btn-nav) { display: none; }
   .scroll-hint { display: none; }
 }
+
+.access-note {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted);
+  opacity: 0.85;
+}
+
