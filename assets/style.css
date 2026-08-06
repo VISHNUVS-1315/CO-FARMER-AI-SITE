@@ -456,7 +456,8 @@ img { max-width: 100%; display: block; }
   .contact-card-left { border-right: none; border-bottom: 1px solid var(--border); }
   .more-projects { grid-template-columns: 1fr; }
   .tile-xl, .tile-lg, .tile { grid-column: span 12; }
-  .nav nav a:not(.btn-nav) { display: none; }
+  .nav nav a { display: none; }
+  .nav nav a[href="#contact"], .nav nav a[href*="releases/latest/download"] { display: inline-block; }
   .scroll-hint { display: none; }
 }
 
